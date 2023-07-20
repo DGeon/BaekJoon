@@ -6,7 +6,12 @@ public class Solution {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        System.out.println("a = "  + a);
-        System.out.println("b = " + b);
+        int min = -100000;
+        int max = 100000;
+        
+        if( (a >= min && a <= max) && (b >= min && b<=max) ){
+            System.out.println("a = " + a);
+            System.out.println("b = " + b);
+        }
     }
 }
